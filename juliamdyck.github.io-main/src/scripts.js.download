@@ -1,0 +1,215 @@
+/*!
+* Start Bootstrap - Personal v1.0.1 (https://startbootstrap.com/template-overviews/personal)
+* Copyright 2013-2023 Start Bootstrap
+* Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-personal/blob/master/LICENSE)
+*/
+// This file is intentionally blank
+// Use this file to add JavaScript to your project
+
+// Fetch the data from the clientInfo JSON
+
+$(document).ready(function(){
+
+    $.getJSON("js/clientInfo.json", function(data){
+        console.log(data)
+
+        $(".first_name").html(data.first_name);
+        $(".last_name").html(data.last_name);
+        $(".full_name").html(data.full_name);
+        $(".school").html(data.school);
+        $(".program").html(data.program);
+
+        // Socials
+        $(".email").html(data.socials.email);
+        $(".email").attr("href", "mailto:"+data.socials.email);
+        $(".tel").html(data.socials.tel);
+        $(".linkedin").attr("href", data.socials.linkedin);
+        $(".github").attr("href", data.socials.github);
+        $(".twitter").attr("href", data.socials.twitter);
+        $(".facebook").attr("href", data.socials.facebook);
+
+        // Copy Text
+        $(".about-copy").html(data.about)
+
+        // Apply the styles (if changed from default)
+        if(data.primaryColor & data.backgroundColor & data.textColor != ""){
+            primaryRGB = hexToRgb(data.primaryColor).toString()
+            document.body.style.backgroundColor = data.backgroundColor;
+            document.body.style.color = data.textColor
+            document.documentElement.style.setProperty('--bs-primary',data.primaryColor)
+            document.documentElement.style.setProperty('--bs-primary-rgb',primaryRGB)
+        }
+        console.log("clientInfo.json loaded successfully")
+
+    }).fail(function(){
+        console.log("Error: Check index.js")
+    })
+})
+
+fetch('js/clientInfo.json')
+  .then(response => response.json())
+  .then(data => {
+    // 'data' will be the parsed JSON object
+    console.log(data);
+    generate_Experience(data);
+    generate_Education(data);
+    generate_Skills(data);
+    generate_Interests(data);
+    generate_Awards(data);
+    // You can work with the data object here
+  })
+  .catch(error => {
+    console.error('Error fetching JSON file:', error);
+  });
+
+  // Converting colour representations
+  function hexToRgb(hex) {
+    // Remove the '#' symbol if present
+    hex = hex.replace('#', '');
+  
+    // Convert the hexadecimal values to decimal
+    const r = parseInt(hex.substring(0, 2), 16);
+    const g = parseInt(hex.substring(2, 4), 16);
+    const b = parseInt(hex.substring(4, 6), 16);
+  
+    // Return the RGB values as an object
+    return ""+r+","+g+","+b+"";
+  }
+
+
+//   Experience
+class ExperienceElement {
+    constructor(title, employer, copyText, dateRange) {
+        this.title = title;
+        this.employer = employer;
+        this.copyText = copyText;
+        this.dateRange = dateRange;
+        this.html_code = `
+        <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+            <div class="flex-grow-1">
+                <h3 class="mb-0 expTitle">`+this.title+`</h3>
+                <div class="subheading mb-3 expEmployer">`+this.employer+`</div>
+                <p class="expCopy">`+this.copyText+`</p>
+            </div>
+            <div class="flex-shrink-0"><span class="text-primary expDate">`+this.dateRange+`</span></div>
+        </div>
+        `
+    }
+}
+
+function generate_Experience(data){
+
+    for (let i = 0; i < data.experience.length; i++){
+
+        const experienceInstance = new ExperienceElement(data.experience[i].title, 
+                                                        data.experience[i].employer, 
+                                                        data.experience[i].copyText, 
+                                                        data.experience[i].dateRange).html_code
+
+        const expereinceInsert = document.getElementById('expereince-insert');
+
+        const div = document.createElement('div');
+        div.innerHTML = experienceInstance;
+
+        expereinceInsert.insertAdjacentElement('afterend', div);
+
+    }
+    console.log('Experience section generated')
+}
+
+// Education
+class EducationElement {
+    constructor(school, degree, major, gpa ,dateRange) {
+        this.school = school;
+        this.degree = degree;
+        this.major = major;
+        this.gpa = gpa;
+        this.dateRange = dateRange;
+        this.html_code = `
+        <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+        <div class="flex-grow-1">
+            <h3 class="mb-0">`+this.school+`</h3>
+            <div class="subheading mb-3">`+this.degree+`</div>
+            <div>`+this.major+`</div>
+            <p>GPA: `+this.gpa+`</p>
+        </div>
+        <div class="flex-shrink-0"><span class="text-primary">`+this.dateRange+`</span></div>
+        `
+    }
+}
+
+function generate_Education(data){
+
+    for (let i = 0; i < data.education.length; i++){
+
+        const educationInstance = new EducationElement(data.education[i].school, 
+                                                    data.education[i].degree, 
+                                                    data.education[i].major, 
+                                                    data.education[i].gpa, 
+                                                    data.education[i].dateRange).html_code
+
+        const educatoinInsert = document.getElementById('education-insert');
+
+        const div = document.createElement('div');
+        div.innerHTML = educationInstance;
+
+        educatoinInsert.insertAdjacentElement('afterend', div);
+
+    }
+
+    console.log('Education section generated')
+}
+
+// Skills
+function generate_Skills(data){
+
+    for (let i = 0; i < data.skills.length; i++){
+
+        const skillInsert = document.getElementById('skills-insert');
+
+        const div = document.createElement('div');
+        div.innerHTML = `
+        <li>
+            <span class=""><i class="fas fa-check"></i></span>
+            `+data.skills[i]+`
+        </li>`;
+
+        skillInsert.insertAdjacentElement('afterend', div);
+
+    }
+    console.log('Skills section generated');
+}
+
+// Interests
+function generate_Interests(data){
+
+    const interestsInsert = document.getElementById('interests-insert');
+
+    const div = document.createElement('div');
+    div.innerHTML = `
+    <p>`+data.interests+`</p>`;
+
+    interestsInsert.insertAdjacentElement('afterend', div);
+
+    console.log('Interests section generated');
+}
+
+// Awards
+function generate_Awards(data){
+
+    for (let i = 0; i < data.awards.length; i++){
+
+        const awardsInsert = document.getElementById('awards-insert');
+
+        const div = document.createElement('div');
+        div.innerHTML = `
+        <li>
+            <span class=""><i class="fas fa-trophy text-warning"></i></span>
+            `+data.awards[i]+`
+        </li>`;
+
+        awardsInsert.insertAdjacentElement('afterend', div);
+
+    }
+    console.log('Awards section generated');
+}
