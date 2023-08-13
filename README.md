@@ -1,10 +1,10 @@
-### Hi! 👋 I am Luke Parna-Gile!
+## Hi! 👋 I am Luke Parna-Gile!
 
-# I’m currently working on a game in C++ without using a game engine. 
-# I’m currently learning CMake and ROS.
+### I’m currently working on a game in C++ without using a game engine. 
+### I’m currently learning CMake and ROS.
 
-# Pronouns: he/him
-# Fun fact: I windsurf!
+### Pronouns: he/him
+### Fun fact: I windsurf!
 <!--
 **lukelpg/lukelpg** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
