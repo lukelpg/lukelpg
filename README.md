@@ -1,7 +1,8 @@
 ## Hi! 👋 I am Luke Parna-Gile!
 
-### I’m currently working on a game in C++ without using a game engine. 
-### I’m currently learning CMake and ROS.
+### I’m currently in my 3rd year at Queen's University pursing a degree in Mechatronics and Robotics Engineering
+### The latest personal project I have been working on is a 2D tile-based game in C++
+### I just switched to the Autonomy subteam on the Queen's Autodrive team
 
 ### Pronouns: he/him
 ### Fun fact: I windsurf!
