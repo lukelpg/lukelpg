@@ -2,12 +2,13 @@
 
 ### I’m currently working at Honda of Canada Manufacturing as a Automation Engineer Intern and I have finished my 3rd year at Queen's University pursing a degree in Mechatronics and Robotics Engineering
 <div style="display: flex; justify-content: center; align-items: center;">
-  <img src="https://github.com/user-attachments/assets/699cef83-2ecf-41cd-95e6-d3471532c61c" alt="Queen's Logo" style="width: 200px; height: 60px; margin-right: 30px;">
-  <img src="https://github.com/user-attachments/assets/ec1fca05-dd89-4a9c-b31a-87cb2ce77f44" alt="Honda Logo" style="width: 200px; height: 60px; margin-left: 30px;">
+  <div style="margin-right: 30px;">
+    <img src="https://github.com/user-attachments/assets/699cef83-2ecf-41cd-95e6-d3471532c61c" alt="Queen's Logo" style="width: 200px; height: 60px;">
+  </div>
+  <div style="margin-left: 30px;">
+    <img src="https://github.com/user-attachments/assets/ec1fca05-dd89-4a9c-b31a-87cb2ce77f44" alt="Honda Logo" style="width: 200px; height: 60px;">
+  </div>
 </div>
-
-
-
 
 ### My latest personal project is a 3D Web application but I am still working away on my 2D C++ game.
 ### I just joined the Autonomy sub team on the Queen's Autodrive team and was previously on the System Integration sub team
