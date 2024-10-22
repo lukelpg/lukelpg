@@ -1,8 +1,9 @@
 ## Hi! 👋 I am Luke Parna-Gile!
 
-### I’m currently working at Honda of Canada Manufacturing as a Automation Engineer Intern
+### I’m currently working at MacLean Engineering as a Software Engineering Intern
+
 <div style="text-align: center;" style="margin-left: 30px;">
-  <img src="https://github.com/user-attachments/assets/ec1fca05-dd89-4a9c-b31a-87cb2ce77f44" alt="Honda Logo" style="width: 240px; height: 60px;">
+  <img src="https://github.com/user-attachments/assets/e69b9ce2-8fd2-4be0-a90d-f07683f86ffc" alt="MacLean Engineering Logo" style="width: 240px; height: 60px;">
 </div><br>
 
 ### I have finished my 3rd year at Queen's University pursing a degree in Mechatronics and Robotics Engineering
