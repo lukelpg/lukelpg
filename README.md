@@ -10,7 +10,7 @@ I'm currently working at MacLean Engineering as a Software Engineering Intern wi
   </div>
   <div align="center">
     <img src="https://github.com/user-attachments/assets/699cef83-2ecf-41cd-95e6-d3471532c61c" alt="Queen's Logo" style="width: 240px; height: 60px;">
-  </div><br>
+  </div>
 </div>
 
 - 🔭 I’m currently working on a personal 3D Web application for designing 3D puzzles that can be exported to 3D print.
@@ -21,20 +21,18 @@ I'm currently working at MacLean Engineering as a Software Engineering Intern wi
 
 ## 🛠️ Technologies & Tools
 
-- **Languages:** [List of Programming Languages You Use]
-- **Frameworks:** [List of Frameworks You Use]
-- **Tools & Platforms:** [List of Tools You Use (e.g., Git, Docker, etc.)]
-- **Databases:** [List of Databases You Use]
+- **Languages:** Python, C++, C, JavaScript, HTML, CSS
+- **Frameworks:** React, Flask, Express
+- **Tools & Platforms:** Git, Git Hub, Azure DevOps
 
 ## 📈 GitHub Stats
 
-![Your GitHub Stats](https://github-readme-stats.vercel.app/api?username=[YourUsername]&show_icons=true&theme=radical)
+![Your GitHub Stats](https://github-readme-stats.vercel.app/api?username=[lukelpg]&show_icons=true&theme=radical)
 
 ## 📫 Connect with Me
 
-- [LinkedIn](https://www.linkedin.com/in/your-linkedin/)
-- [Twitter](https://twitter.com/your-twitter/)
-- [Your Portfolio/Website](https://your-portfolio.com)
+- [LinkedIn](https://www.linkedin.com/in/luke-parna-gile)
+- [Your Portfolio/Website](https://lukelpg.github.io/)
 
 ## 📄 Recent Projects
 
