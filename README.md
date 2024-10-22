@@ -27,12 +27,12 @@ I'm currently working at MacLean Engineering as a Software Engineering Intern wi
 
 <!-- ## 📈 GitHub Stats
 
-![Your GitHub Stats](https://github-readme-stats.vercel.app/api?username=lukelpg&show_icons=true&theme=radical) -->
+![My GitHub Stats](https://github-readme-stats.vercel.app/api?username=lukelpg&show_icons=true&theme=radical)
 
 ## 📫 Connect with Me
 
 - [LinkedIn](https://www.linkedin.com/in/luke-parna-gile)
-- [Your Portfolio/Website](https://lukelpg.github.io/)
+- [My Portfolio/Website](https://lukelpg.github.io/)
 
 ## 📄 Recent Projects
 
@@ -51,8 +51,6 @@ I'm currently working at MacLean Engineering as a Software Engineering Intern wi
 ## 📚 Certifications & Achievements
 
 - [Certification Name](Link to Certification)
-- [Achievement or Award Name](Link to Details)
+- [Achievement or Award Name](Link to Details)  -->
 
 ---
-
-Feel free to customize this template by adding or removing sections as needed. This structure will help make your GitHub profile look organized and professional!
