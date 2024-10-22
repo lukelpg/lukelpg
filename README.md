@@ -27,7 +27,7 @@ I'm currently working at MacLean Engineering as a Software Engineering Intern wi
 
 ## 📈 GitHub Stats
 
-![Your GitHub Stats](https://github-readme-stats.vercel.app/api?username=[lukelpg]&show_icons=true&theme=radical)
+![Your GitHub Stats](https://github-readme-stats.vercel.app/api?username=lukelpg&show_icons=true&theme=radical)
 
 ## 📫 Connect with Me
 
