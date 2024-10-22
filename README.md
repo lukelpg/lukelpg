@@ -4,11 +4,11 @@
 
 I'm currently working at MacLean Engineering as a Software Engineering Intern with a passion for software and robotics development. I am in my fourth year in Mechatronics and Robotics Engineering at Queen's University.
 
-<div style="display: flex; justify-content: center; align-items: center;">
-  <div style="margin: 0 10px;">
-    <img src="https://github.com/user-attachments/assets/e69b9ce2-8fd2-4be0-a90d-f07683f86ffc" alt="MacLean Engineering Logo" style="width: 240px; height: 120px;">
-  </div>
-  <div style="margin: 0 10px;">
+<div style="display: flex; justify-content: space-around; align-items: center;">
+  <div align="center">
+      <img src="https://github.com/user-attachments/assets/e69b9ce2-8fd2-4be0-a90d-f07683f86ffc" alt="MacLean Engineering Logo" style="width: 240px; height: 120px;">
+  </div><br>
+  <div align="center">
     <img src="https://github.com/user-attachments/assets/699cef83-2ecf-41cd-95e6-d3471532c61c" alt="Queen's Logo" style="width: 240px; height: 60px;">
   </div>
 </div>
