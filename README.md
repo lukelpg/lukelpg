@@ -25,14 +25,14 @@ I'm currently working at MacLean Engineering as a Software Engineering Intern wi
 - **Frameworks:** React, Flask, Express
 - **Tools & Platforms:** Git, Git Hub, Azure DevOps
 
-<!-- ## 📈 GitHub Stats
-
-![My GitHub Stats](https://github-readme-stats.vercel.app/api?username=lukelpg&show_icons=true&theme=radical)
-
 ## 📫 Connect with Me
 
 - [LinkedIn](https://www.linkedin.com/in/luke-parna-gile)
 - [My Portfolio/Website](https://lukelpg.github.io/)
+
+<!-- ## 📈 GitHub Stats
+
+![My GitHub Stats](https://github-readme-stats.vercel.app/api?username=lukelpg&show_icons=true&theme=radical)
 
 ## 📄 Recent Projects
 
