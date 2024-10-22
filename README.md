@@ -3,7 +3,7 @@
 ### I’m currently working at MacLean Engineering as a Software Engineering Intern
 
 <div style="text-align: center;" style="margin-left: 30px;">
-  <img src="https://github.com/user-attachments/assets/e69b9ce2-8fd2-4be0-a90d-f07683f86ffc" alt="MacLean Engineering Logo" style="width: 240px; height: 100px;">
+  <img src="https://github.com/user-attachments/assets/e69b9ce2-8fd2-4be0-a90d-f07683f86ffc" alt="MacLean Engineering Logo" style="width: 240px; height: 120px;">
 </div><br>
 
 ### I have finished my 3rd year at Queen's University pursing a degree in Mechatronics and Robotics Engineering
