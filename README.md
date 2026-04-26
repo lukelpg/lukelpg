@@ -31,7 +31,7 @@ I'm currently working at MacLean Engineering as a Software Engineering Intern wi
 - [My Portfolio/Website](https://lukelpg.github.io/)
 
 ## My Activity
-My GitHub is not the only place where my commits have been tracked. I have done work on Azure DevOps during my internship at MacLean Engineering. From September 2023 to August 2025, I was working full time and the commits are shown below.
+My GitHub is not the only place where my commits have been tracked. I have done work on Azure DevOps during my internship at MacLean Engineering. From September 2024 to August 2025, I was working full time and the commits are shown below.
 <img width="1841" height="907" alt="image" src="https://github.com/user-attachments/assets/5732b7fd-04e4-4539-9423-bea5432a3f8f" />
 
 <!-- ## 📈 GitHub Stats
