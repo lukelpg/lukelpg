@@ -2,7 +2,7 @@
 
 ## 👨‍💻 About Me
 
-I'm currently working at MacLean Engineering as a Software Engineering Intern with a passion for software and robotics development. I am in my fourth year in Mechatronics and Robotics Engineering at Queen's University.
+I'm currently working at MacLean Engineering as a Software Engineering Intern with a passion for software and robotics development. I am in my fifth year in Mechatronics and Robotics Engineering at Queen's University.
 
 <div style="display: flex; justify-content: space-around; align-items: center;">
   <div align="center">
@@ -33,6 +33,10 @@ I'm currently working at MacLean Engineering as a Software Engineering Intern wi
 <!-- ## 📈 GitHub Stats
 
 ![My GitHub Stats](https://github-readme-stats.vercel.app/api?username=lukelpg&show_icons=true&theme=radical)
+
+My GitHub is not the only place where my commits have been tracked. I have done work on Azure DevOps during my internship at MacLean Engineering. From September 2023 to August 2025, I was working full time and the commits are shown below.
+<img width="1841" height="907" alt="image" src="https://github.com/user-attachments/assets/5732b7fd-04e4-4539-9423-bea5432a3f8f" />
+
 
 ## 📄 Recent Projects
 
